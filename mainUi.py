@@ -70,8 +70,8 @@ class Ui_MainWindow(object):
         ui = Ui_Dialog()
         self.getDetailSurat = requests.get(baseUrl+str(self.daftarSurat.currentRow()+1)).json()
         data = self.getDetailSurat['data']
+        ui.setupUi(Dialog)
         ui.getSurat(data)
-        ui.setupUi(Dialog)     
         Dialog.show()
         Dialog.exec_()
 

@@ -1,3 +1,4 @@
 ## AL-Qur'an Python GUI
 
-_Still On progress_
+this is Al-Quran Application for dekstop that has been written in python
+and PYQT5 to help me make an UI
